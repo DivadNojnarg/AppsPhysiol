@@ -1,3 +1,20 @@
+case_studies_url <- "http://130.60.24.79:3838/case_studies_app_V3.2/"
+treatments_url <- "http://130.60.24.79:3838/treatments_app_V3.2/"
+#
+#case_studies_status <- tryCatch(
+#  expr = http_status(GET(case_studies_url)), 
+#  error = function(e) {
+#    "error"
+#  }
+#)
+#
+#treatments_status <- tryCatch(
+#  expr = http_status(GET(treatments_url)), 
+#  error = function(e) {
+#    "error"
+#  }
+#)
+
 body <- tagList(
   # banner and title
   argonSection(
@@ -45,11 +62,34 @@ body <- tagList(
           br(), br(),
           argonImage(src = "inst/images/case-studies-app.png"),
           br(), br(),
-          argonButton(
-            name = "ACCESS APP...", 
-            status = "primary",
-            outline = TRUE,
-            src = "http://130.60.24.79:3838/case_studies_app_V3.2/"
+          argonRow(
+            center = TRUE,
+            argonColumn(
+              width = 6,
+              argonButton(
+                name = "ACCESS APP...", 
+                status = "primary",
+                outline = TRUE,
+                src = case_studies_url
+              )
+            ),
+            argonColumn(
+              width = 6,
+              argonBadge(
+                #status = if (case_studies_status != "error") {
+                #  "success"
+                #} else {
+                #  "danger"
+                #},
+                #text = if (case_studies_status != "error") {
+                #  "On"
+                #} else {
+                #  "Off"
+                #},
+                text = NULL,
+                pill = TRUE
+              )
+            )
           )
         ) 
       ),
@@ -65,11 +105,34 @@ body <- tagList(
           br(), br(),
           argonImage(src = "inst/images/treatments-app.png"),
           br(), br(),
-          argonButton(
-            name = "ACCESS APP...", 
-            status = "primary",
-            outline = TRUE,
-            src = "http://130.60.24.79:3838/treatments_app_V3.2/"
+          argonRow(
+            center = TRUE,
+            argonColumn(
+              width = 6,
+              argonButton(
+                name = "ACCESS APP...", 
+                status = "primary",
+                outline = TRUE,
+                src = treatments_url
+              )
+            ),
+            argonColumn(
+              width = 6,
+              argonBadge(
+                #status = if (treatments_status != "error") {
+                #  "success"
+                #} else {
+                #  "danger"
+                #},
+                #text = if (treatments_status != "error") {
+                #  "On"
+                #} else {
+                #  "Off"
+                #},
+                text = NULL,
+                pill = TRUE
+              )
+            )
           )
         ) 
       )
