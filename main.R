@@ -3,11 +3,15 @@ library(htmltools)
 library(magrittr)
 library(rstudioapi)
 
+source("navbar.R")
+source("body.R")
+source("footer.R")
+
 # argonInstall()
 
 index <-  argonPage(
   title = "Apps.Physiol",
-  author =  "David Granjean",
+  author =  "David Granjon",
   description = "Apps.Physiol",
   navbar = navbar, 
   footer = footer,
