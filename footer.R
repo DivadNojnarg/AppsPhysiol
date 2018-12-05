@@ -19,32 +19,36 @@ footer <- argonFooter(
           value = 2,
           argonImage(
             src = "inst/images/interface.svg",
-            url = "http://interfacegroup.ch"
-          ) %>% tagAppendAttributes(width = "10%")
+            url = "http://interfacegroup.ch",
+            width = "10%"
+          ) 
         ),
         argonMargin(
           orientation = "x", 
           value = 2,
           argonImage(
             src = "inst/images/uzh.svg",
-            url = "https://www.uzh.ch/de.html"
-          ) %>% tagAppendAttributes(width = "25%")
+            url = "https://www.uzh.ch/de.html",
+            width = "25%"
+          ) 
         ),
         argonMargin(
           orientation = "x", 
           value = 2,
           argonImage(
             src = "inst/images/nccr.svg",
-            url = "http://www.nccr-kidney.ch/index.php"
-          ) %>% tagAppendAttributes(width = "25%")
+            url = "http://www.nccr-kidney.ch/index.php",
+            width = "25%"
+          ) 
         ),
         argonMargin(
           orientation = "x", 
           value = 2,
           argonImage(
             src = "inst/images/unil.svg",
-            url = "https://www.unil.ch/fbm/home.html"
-          ) %>% tagAppendAttributes(width = "25%")
+            url = "https://www.unil.ch/fbm/home.html",
+            width = "25%"
+          ) 
         )
       )
     )

@@ -1,20 +1,20 @@
-navbar <- argonNavbar(
+navbarHelp1 <- argonNavbar(
   id = "main-navbar",
   src = "https://image.flaticon.com/icons/svg/776/776218.svg",
   src_collapsed = "https://image.flaticon.com/icons/svg/776/776218.svg",
   argonNavMenu(
     argonDropdown(
-      name = "Help",
+      name = "More",
       size = "lg",
       argonDropdownItem(
-        name = "CaPO4 Homeostasis: Entry Level",
-        src = "file:///Users/isabellerudolf%201/Desktop/AppsPhysiol/help1.html",
-        icon = "bulb-61",
+        name = "Main Menu",
+        src = "main",
+        icon = "bold-left",
         status = "danger"
       ),
       argonDropdownItem(
-        name = "CaPO4 Homeostasis: Treatments",
-        src = "file:///Users/isabellerudolf%201/Desktop/AppsPhysiol/help2.html",
+        name = "Help: Treatments",
+        src = "mainHelp2",
         icon = "bulb-61",
         status = "danger"
       )

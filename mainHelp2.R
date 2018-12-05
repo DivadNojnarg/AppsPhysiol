@@ -5,19 +5,19 @@ library(rstudioapi)
 
 #library(httr)
 
-source("navbar.R")
-source("body.R")
+source("navbarHelp2.R")
 source("footer.R")
+source("bodyHelp2.R")
 
 # argonInstall()
 
-index <-  argonPage(
+help2 <-  argonPage(
   title = "Apps.Physiol",
   author =  "David Granjon",
-  description = "Apps.Physiol",
-  navbar = navbar, 
+  description = "Apps.Physiol.Help1",
+  navbar = navbarHelp2, 
   footer = footer,
-  body
+  bodyHelp2 
   #,
   # analytics = tagList(
   #   includeScript(path = "https://code.jquery.com/jquery-3.3.1.min.js"),
@@ -62,4 +62,4 @@ index <-  argonPage(
 path <- getwd()
 
 # generate the static page
-argonPageTemplate(filename = "index", path = path, argonPage = index)
+argonPageTemplate(filename = "help2", path = path, argonPage = help2)
