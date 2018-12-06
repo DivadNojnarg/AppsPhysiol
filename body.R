@@ -54,7 +54,7 @@ body <- tagList(
         width = 6,
         argonCard(
           width = 12,
-          title = "CaPO4 Homeostasis: Treatments", 
+          title = "CaPO4 Homeostasis: Entry Level", 
           hover_lift = TRUE,
           shadow = TRUE,
           hover_shadow = TRUE,
@@ -97,7 +97,7 @@ body <- tagList(
         width = 6,
         argonCard(
           width = 12,
-          title = "CaPO4 Homeostasis: Entry Level", 
+          title = "CaPO4 Homeostasis: Treatments", 
           hover_lift = TRUE,
           shadow = TRUE,
           hover_shadow = TRUE,

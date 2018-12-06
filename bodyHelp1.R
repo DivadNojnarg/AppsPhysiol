@@ -4,8 +4,6 @@ bodyHelp1 <- tagList(
     size = "lg",
     status = "default",
     gradient = TRUE,
-    separator = TRUE,
-    separator_color = "white",
     shape = TRUE,
     argonRow(
       width = 12,

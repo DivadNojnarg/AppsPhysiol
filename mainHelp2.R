@@ -5,7 +5,7 @@ library(rstudioapi)
 
 #library(httr)
 
-source("navbarHelp2.R")
+source("navbar.R")
 source("footer.R")
 source("bodyHelp2.R")
 
@@ -14,8 +14,8 @@ source("bodyHelp2.R")
 help2 <-  argonPage(
   title = "Apps.Physiol",
   author =  "David Granjon",
-  description = "Apps.Physiol.Help1",
-  navbar = navbarHelp2, 
+  description = "Apps.Physiol.Help2",
+  navbar = navbar, 
   footer = footer,
   bodyHelp2 
   #,
