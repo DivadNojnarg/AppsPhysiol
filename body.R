@@ -1,5 +1,5 @@
-case_studies_url <- "http://130.60.24.79:3838/case_studies_app_V3.2/"
-treatments_url <- "http://130.60.24.79:3838/treatments_app_V3.2/"
+case_studies_url <- "http://130.60.228.28/case_studies"
+treatments_url <- "http://130.60.228.28/treatments"
 #
 #case_studies_status <- tryCatch(
 #  expr = http_status(GET(case_studies_url)), 
