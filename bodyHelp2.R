@@ -16,35 +16,35 @@ bodyHelp2 <- tagList(
           tabName = "Access the App",
           active = TRUE,
           argonImage(
-            src = "inst/images/treatments_app_cheatsheet_page1.png"
+            src = "inst/images/virtual_patient/virtual_patient_1.png"
           )
         ),
         argonTab(
           tabName = "Network Analysis",
           active = FALSE,
           argonImage(
-            src = "inst/images/treatments_app_cheatsheet_page2.png"
+            src = "inst/images/virtual_patient/virtual_patient_2.png"
           )
         ),
         argonTab(
           tabName = "Diagnostics",
           active = FALSE,
           argonImage(
-            src = "inst/images/treatments_app_cheatsheet_page3.png"
+            src = "inst/images/virtual_patient/virtual_patient_3.png"
           )
         ),
         argonTab(
           tabName = "Treatments",
           active = FALSE,
           argonImage(
-            src = "inst/images/treatments_app_cheatsheet_page4.png"
+            src = "inst/images/virtual_patient/virtual_patient_4.png"
           )
         ),
         argonTab(
           tabName = "Game End",
           active = FALSE,
           argonImage(
-            src = "inst/images/treatments_app_cheatsheet_page5.png"
+            src = "inst/images/virtual_patient/virtual_patient_5.png"
           )
         )
       ) 
