@@ -10,7 +10,7 @@ footer <- argonFooter(
         width = 6,
         div(
           class = "copyright",
-          argonLead("© 2018 The Interface Group, Zurich") 
+          argonLead("©2018-2019 The Interface Group, Zurich") 
         )
       ),
       argonColumn(
