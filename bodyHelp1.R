@@ -16,14 +16,14 @@ bodyHelp1 <- tagList(
           tabName = "Access the App",
           active = TRUE,
               argonImage(
-                src = "inst/images/cheatsheet_page1.png"
+                src = "inst/images/entry_level/entry_level_1.png"
               )
         ),
         argonTab(
           tabName = "Inside the App",
           active = FALSE,
           argonImage(
-            src = "inst/images/cheatsheet_page2.png"
+            src = "inst/images/entry_level/entry_level_2.png"
           )
         ) 
       ) 
