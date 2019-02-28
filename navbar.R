@@ -1,5 +1,5 @@
 navbar <- argonNavbar(
-  href = "http://physiol-seafile.uzh.ch",
+  href = "http://physiol-seafile.uzh.ch/",
   id = "main-navbar",
   src = "https://image.flaticon.com/icons/svg/776/776218.svg",
   src_collapsed = "https://image.flaticon.com/icons/svg/776/776218.svg",
