@@ -58,39 +58,10 @@ body <- tagList(
           hover_lift = TRUE,
           shadow = TRUE,
           hover_shadow = TRUE,
+          src = case_studies_url,
           "Shiny App of calcium and phosphate homeostasis with case studies",
           br(), br(),
-          argonImage(src = "inst/images/case-studies-app.png"),
-          br(), br(),
-          argonRow(
-            center = TRUE,
-            argonColumn(
-              width = 6,
-              argonButton(
-                name = "ACCESS APP...", 
-                status = "primary",
-                outline = TRUE,
-                src = case_studies_url
-              )
-            ),
-            argonColumn(
-              width = 6,
-              argonBadge(
-                #status = if (case_studies_status != "error") {
-                #  "success"
-                #} else {
-                #  "danger"
-                #},
-                #text = if (case_studies_status != "error") {
-                #  "On"
-                #} else {
-                #  "Off"
-                #},
-                text = NULL,
-                pill = TRUE
-              )
-            )
-          )
+          argonImage(src = "inst/images/case-studies-app.png")
         ) 
       ),
       argonColumn(
@@ -101,39 +72,10 @@ body <- tagList(
           hover_lift = TRUE,
           shadow = TRUE,
           hover_shadow = TRUE,
+          src = treatments_url,
           "Shiny App of calcium and phosphate homeostasis with treatments",
           br(), br(),
-          argonImage(src = "inst/images/treatments-app.png"),
-          br(), br(),
-          argonRow(
-            center = TRUE,
-            argonColumn(
-              width = 6,
-              argonButton(
-                name = "ACCESS APP...", 
-                status = "primary",
-                outline = TRUE,
-                src = treatments_url
-              )
-            ),
-            argonColumn(
-              width = 6,
-              argonBadge(
-                #status = if (treatments_status != "error") {
-                #  "success"
-                #} else {
-                #  "danger"
-                #},
-                #text = if (treatments_status != "error") {
-                #  "On"
-                #} else {
-                #  "Off"
-                #},
-                text = NULL,
-                pill = TRUE
-              )
-            )
-          )
+          argonImage(src = "inst/images/treatments-app.png")
         ) 
       )
     )
